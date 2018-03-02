@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+    <table id="calculadora">
+        <tr>
+            <td colspan="4"><input type="text" name="resultado" id="resultado"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="borrar_todo" id="borrar_todo" value="C" onclick="borrar_todo()"></td>
+            <td><input type="button" name="dividir" id="dividir" value="/" onclick="dividir()"></td>
+            <td><input type="button" name="multiplicar" id="multiplicar" value="*" onclick="multiplicar()"></td>
+            <td><input type="button" name="borrar" id="borrar" value="BORRAR" onclick="borrar()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="siete" id="siete" value="7" onclick="siete()"></td>
+            <td><input type="button" name="ocho" id="ocho" value="8" onclick="ocho()"></td>
+            <td><input type="button" name="nueve" id="nueve" value="9" onclick="nueve()"></td>
+            <td><input type="button" name="restar" id="restar" value="-" onclick="restar()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="cuatro" id="cuatro" value="4" onclick="cuatro()"></td>
+            <td><input type="button" name="cinco" id="cinco" value="5" onclick="cinco()"></td>
+            <td><input type="button" name="seis" id="seis" value="6" onclick="seis()"></td>
+            <td><input type="button" name="sumar" id="sumar" value="+" onclick="sumar()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="uno" id="uno" value="1" onclick="uno()"></td>
+            <td><input type="button" name="dos" id="dos" value="2" onclick="dos()"></td>
+            <td><input type="button" name="tres" id="tres" value="3" onclick="tres()"></td>
+            <td><input type="button" name="porcentaje" id="porcentaje" value="%" onclick="porcentaje()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="cero" id="cero" value="0" onclick="cero()"></td>
+            <td><input type="button" name="coma" id="coma" value="," onclick="coma()"></td>
+            <td colspan="2"><input type="button" name="igual" id="igual" value="=" onclick="igual()"></td>
+
+        </tr>
+    </table>
+<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
